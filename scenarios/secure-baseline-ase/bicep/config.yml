@@ -1,9 +1,9 @@
-AZURE_LOCATION: 'westus2'
+AZURE_LOCATION: 'southcentralus'
 RESOURCE_NAME_PREFIX: 'asedemo'
-ENVIRONMENT_TAG: 'dev'
+ENVIRONMENT_TAG: 'prod'
 DEPLOYMENT_NAME: 'ase-secure-baseline'
 VM_USERNAME: 'agent'
 ACCOUNT_NAME: 'replace me in repo secrets'
-CICD_AGENT_TYPE: 'azuredevops'
-CREATE_REDIS_RESOURCE: false
+CICD_AGENT_TYPE: 'github'
+CREATE_REDIS_RESOURCE: true
 REDIS_TIER: 'Enterprise_E10'
